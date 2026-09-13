@@ -1,7 +1,13 @@
 <div align="center">
 
 # BHOOMI RAKSHA
+**Geospatial Decision Intelligence for Disaster Risk, Relocation & Carrying Capacity**
 
+<a href="https://bhoomiraksha.vercel.app/">
+  <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-bhoomiraksha.vercel.app-000000?style=for-the-badge" alt="Live Demo">
+</a>
+
+</div>
 ### Geospatial Decision Intelligence for Hazard-Based Red Zones & Relocation Planning
 
 **Kangra district pilot · Landslide hazard · SIH 2026**
