@@ -1,0 +1,697 @@
+{
+ "solver_status": "OPTIMAL",
+ "objective_value": 13854.14,
+ "allocations": [
+  {
+   "source_id": "osm-733786436",
+   "source_name": "Darnu",
+   "site_id": "cand-0074",
+   "population": 357,
+   "distance_km": 3.86,
+   "site_suitability": 69.9
+  },
+  {
+   "source_id": "osm-6782140352",
+   "source_name": "Lohardi",
+   "site_id": "cand-0209",
+   "population": 196,
+   "distance_km": 0.92,
+   "site_suitability": 76.7
+  },
+  {
+   "source_id": "osm-7908530713",
+   "source_name": "Boh",
+   "site_id": "cand-0029",
+   "population": 153,
+   "distance_km": 4.28,
+   "site_suitability": 61.0
+  },
+  {
+   "source_id": "osm-7574003399",
+   "source_name": "Haini",
+   "site_id": "cand-0046",
+   "population": 123,
+   "distance_km": 1.75,
+   "site_suitability": 69.6
+  },
+  {
+   "source_id": "osm-6782138761",
+   "source_name": "Polling",
+   "site_id": "cand-0185",
+   "population": 105,
+   "distance_km": 0.37,
+   "site_suitability": 75.0
+  },
+  {
+   "source_id": "osm-3066887918",
+   "source_name": "Thalla",
+   "site_id": "cand-0109",
+   "population": 96,
+   "distance_km": 0.59,
+   "site_suitability": 74.6
+  },
+  {
+   "source_id": "osm-5245663524",
+   "source_name": "Napotha",
+   "site_id": "cand-0209",
+   "population": 86,
+   "distance_km": 0.37,
+   "site_suitability": 76.7
+  },
+  {
+   "source_id": "osm-5245663525",
+   "source_name": "Andarli Malahn",
+   "site_id": "cand-0209",
+   "population": 73,
+   "distance_km": 1.09,
+   "site_suitability": 76.7
+  },
+  {
+   "source_id": "osm-811015483",
+   "source_name": "Ashapuri",
+   "site_id": "cand-0325",
+   "population": 60,
+   "distance_km": 0.65,
+   "site_suitability": 61.8
+  },
+  {
+   "source_id": "osm-7908760379",
+   "source_name": "Khariri",
+   "site_id": "cand-0064",
+   "population": 57,
+   "distance_km": 3.27,
+   "site_suitability": 63.8
+  },
+  {
+   "source_id": "osm-2041811368",
+   "source_name": "Jogiwara",
+   "site_id": "cand-0046",
+   "population": 56,
+   "distance_km": 3.11,
+   "site_suitability": 69.6
+  },
+  {
+   "source_id": "osm-5245663517",
+   "source_name": "Jadhar",
+   "site_id": "cand-0185",
+   "population": 54,
+   "distance_km": 1.44,
+   "site_suitability": 75.0
+  },
+  {
+   "source_id": "osm-7961110420",
+   "source_name": "Ner",
+   "site_id": "cand-0219",
+   "population": 52,
+   "distance_km": 1.64,
+   "site_suitability": 71.1
+  },
+  {
+   "source_id": "osm-848315040",
+   "source_name": "Lower Bara Bhanghal",
+   "site_id": "cand-0165",
+   "population": 48,
+   "distance_km": 25.21,
+   "site_suitability": 66.4
+  },
+  {
+   "source_id": "osm-7908760401",
+   "source_name": "Diba",
+   "site_id": "cand-0029",
+   "population": 48,
+   "distance_km": 2.55,
+   "site_suitability": 61.0
+  },
+  {
+   "source_id": "osm-7908530709",
+   "source_name": "Kharandar",
+   "site_id": "cand-0029",
+   "population": 46,
+   "distance_km": 7.34,
+   "site_suitability": 61.0
+  },
+  {
+   "source_id": "osm-5682206817",
+   "source_name": "Chamira",
+   "site_id": "cand-0045",
+   "population": 45,
+   "distance_km": 1.59,
+   "site_suitability": 68.4
+  },
+  {
+   "source_id": "osm-7890572952",
+   "source_name": "Khari Behi",
+   "site_id": "cand-0032",
+   "population": 36,
+   "distance_km": 1.74,
+   "site_suitability": 61.8
+  },
+  {
+   "source_id": "osm-7954681290",
+   "source_name": "Sureh",
+   "site_id": "cand-0109",
+   "population": 35,
+   "distance_km": 1.05,
+   "site_suitability": 74.6
+  },
+  {
+   "source_id": "osm-847677331",
+   "source_name": "Sarla",
+   "site_id": "cand-0219",
+   "population": 34,
+   "distance_km": 1.09,
+   "site_suitability": 71.1
+  },
+  {
+   "source_id": "osm-2376974346",
+   "source_name": "Kharota",
+   "site_id": "cand-0075",
+   "population": 34,
+   "distance_km": 0.89,
+   "site_suitability": 69.3
+  },
+  {
+   "source_id": "osm-7954861519",
+   "source_name": "Kharas",
+   "site_id": "cand-0169",
+   "population": 33,
+   "distance_km": 0.81,
+   "site_suitability": 62.0
+  },
+  {
+   "source_id": "osm-7961165177",
+   "source_name": "Uhldhar",
+   "site_id": "cand-0209",
+   "population": 31,
+   "distance_km": 2.34,
+   "site_suitability": 76.7
+  },
+  {
+   "source_id": "osm-622811884",
+   "source_name": "Bontu",
+   "site_id": "cand-0046",
+   "population": 31,
+   "distance_km": 2.12,
+   "site_suitability": 69.6
+  },
+  {
+   "source_id": "osm-2386471533",
+   "source_name": "Talnu",
+   "site_id": "cand-0046",
+   "population": 31,
+   "distance_km": 1.2,
+   "site_suitability": 69.6
+  },
+  {
+   "source_id": "osm-10690493948",
+   "source_name": "Darala",
+   "site_id": "cand-0030",
+   "population": 30,
+   "distance_km": 0.79,
+   "site_suitability": 60.3
+  },
+  {
+   "source_id": "osm-7954681302",
+   "source_name": "Malenta",
+   "site_id": "cand-0109",
+   "population": 30,
+   "distance_km": 1.61,
+   "site_suitability": 74.6
+  },
+  {
+   "source_id": "osm-1328214331",
+   "source_name": "Lahri",
+   "site_id": "cand-0024",
+   "population": 28,
+   "distance_km": 0.56,
+   "site_suitability": 63.5
+  },
+  {
+   "source_id": "osm-7954812369",
+   "source_name": "Sarajarh",
+   "site_id": "cand-0167",
+   "population": 25,
+   "distance_km": 2.1,
+   "site_suitability": 70.0
+  },
+  {
+   "source_id": "osm-5245663521",
+   "source_name": "Sangerh",
+   "site_id": "cand-0219",
+   "population": 24,
+   "distance_km": 1.14,
+   "site_suitability": 71.1
+  },
+  {
+   "source_id": "osm-7908760388",
+   "source_name": "Lag",
+   "site_id": "cand-0024",
+   "population": 23,
+   "distance_km": 1.23,
+   "site_suitability": 63.5
+  },
+  {
+   "source_id": "osm-7954681289",
+   "source_name": "Darklu",
+   "site_id": "cand-0109",
+   "population": 21,
+   "distance_km": 1.41,
+   "site_suitability": 74.6
+  },
+  {
+   "source_id": "osm-10690493950",
+   "source_name": "Ghatta",
+   "site_id": "cand-0045",
+   "population": 20,
+   "distance_km": 3.28,
+   "site_suitability": 68.4
+  },
+  {
+   "source_id": "osm-7954861514",
+   "source_name": "Nain",
+   "site_id": "cand-0167",
+   "population": 20,
+   "distance_km": 1.3,
+   "site_suitability": 70.0
+  },
+  {
+   "source_id": "osm-811015593",
+   "source_name": "Badaar Patt",
+   "site_id": "cand-0325",
+   "population": 18,
+   "distance_km": 0.98,
+   "site_suitability": 61.8
+  },
+  {
+   "source_id": "osm-5245663522",
+   "source_name": "Sarman",
+   "site_id": "cand-0219",
+   "population": 17,
+   "distance_km": 1.16,
+   "site_suitability": 71.1
+  },
+  {
+   "source_id": "osm-7954937163",
+   "source_name": "Jamuratpur",
+   "site_id": "cand-0167",
+   "population": 17,
+   "distance_km": 2.29,
+   "site_suitability": 70.0
+  },
+  {
+   "source_id": "osm-2386626704",
+   "source_name": "Galu Devi",
+   "site_id": "cand-0046",
+   "population": 17,
+   "distance_km": 1.25,
+   "site_suitability": 69.6
+  },
+  {
+   "source_id": "osm-7908474707",
+   "source_name": "Pukhru",
+   "site_id": "cand-0029",
+   "population": 16,
+   "distance_km": 5.57,
+   "site_suitability": 61.0
+  },
+  {
+   "source_id": "osm-7908760398",
+   "source_name": "Luharka",
+   "site_id": "cand-0029",
+   "population": 16,
+   "distance_km": 1.16,
+   "site_suitability": 61.0
+  },
+  {
+   "source_id": "osm-7908530715",
+   "source_name": "Morcha",
+   "site_id": "cand-0024",
+   "population": 15,
+   "distance_km": 4.69,
+   "site_suitability": 63.5
+  },
+  {
+   "source_id": "osm-622327065",
+   "source_name": "Nauli",
+   "site_id": "cand-0031",
+   "population": 15,
+   "distance_km": 0.65,
+   "site_suitability": 64.6
+  },
+  {
+   "source_id": "osm-8620964833",
+   "source_name": "Balalan",
+   "site_id": "cand-0103",
+   "population": 14,
+   "distance_km": 0.65,
+   "site_suitability": 63.3
+  },
+  {
+   "source_id": "osm-7954937168",
+   "source_name": "Matrun",
+   "site_id": "cand-0203",
+   "population": 13,
+   "distance_km": 0.54,
+   "site_suitability": 68.0
+  },
+  {
+   "source_id": "osm-10690493943",
+   "source_name": "Rulehd",
+   "site_id": "cand-0029",
+   "population": 12,
+   "distance_km": 3.38,
+   "site_suitability": 61.0
+  },
+  {
+   "source_id": "osm-7890572953",
+   "source_name": "Ah Got",
+   "site_id": "cand-0032",
+   "population": 12,
+   "distance_km": 1.83,
+   "site_suitability": 61.8
+  },
+  {
+   "source_id": "osm-7954861512",
+   "source_name": "Dunki",
+   "site_id": "cand-0167",
+   "population": 12,
+   "distance_km": 1.24,
+   "site_suitability": 70.0
+  },
+  {
+   "source_id": "osm-5245663515",
+   "source_name": "Khari Malan",
+   "site_id": "cand-0209",
+   "population": 11,
+   "distance_km": 1.13,
+   "site_suitability": 76.7
+  },
+  {
+   "source_id": "osm-7956097783",
+   "source_name": "Ropru",
+   "site_id": "cand-0209",
+   "population": 11,
+   "distance_km": 0.7,
+   "site_suitability": 76.7
+  },
+  {
+   "source_id": "osm-673872060",
+   "source_name": "Thathri",
+   "site_id": "cand-0074",
+   "population": 11,
+   "distance_km": 3.31,
+   "site_suitability": 69.9
+  },
+  {
+   "source_id": "osm-5245663515",
+   "source_name": "Khari Malan",
+   "site_id": "cand-0185",
+   "population": 9,
+   "distance_km": 1.43,
+   "site_suitability": 75.0
+  },
+  {
+   "source_id": "osm-10690493951",
+   "source_name": "Sel",
+   "site_id": "cand-0045",
+   "population": 9,
+   "distance_km": 2.49,
+   "site_suitability": 68.4
+  },
+  {
+   "source_id": "osm-622325147",
+   "source_name": "Khadbai",
+   "site_id": "cand-0032",
+   "population": 9,
+   "distance_km": 1.71,
+   "site_suitability": 61.8
+  },
+  {
+   "source_id": "osm-622355805",
+   "source_name": "unnamed_622355805",
+   "site_id": "cand-0031",
+   "population": 8,
+   "distance_km": 1.62,
+   "site_suitability": 64.6
+  },
+  {
+   "source_id": "osm-570749137",
+   "source_name": "Dhrakala",
+   "site_id": "cand-0032",
+   "population": 8,
+   "distance_km": 1.39,
+   "site_suitability": 61.8
+  },
+  {
+   "source_id": "osm-7890572961",
+   "source_name": "Upper Gathri",
+   "site_id": "cand-0046",
+   "population": 8,
+   "distance_km": 1.29,
+   "site_suitability": 69.6
+  },
+  {
+   "source_id": "osm-7890572955",
+   "source_name": "Galu",
+   "site_id": "cand-0046",
+   "population": 8,
+   "distance_km": 0.49,
+   "site_suitability": 69.6
+  },
+  {
+   "source_id": "osm-7954937161",
+   "source_name": "Bharehr Uparli",
+   "site_id": "cand-0167",
+   "population": 7,
+   "distance_km": 2.66,
+   "site_suitability": 70.0
+  },
+  {
+   "source_id": "osm-7954861508",
+   "source_name": "Sokru",
+   "site_id": "cand-0167",
+   "population": 6,
+   "distance_km": 1.51,
+   "site_suitability": 70.0
+  },
+  {
+   "source_id": "osm-622326108",
+   "source_name": "Uparli Khadbai",
+   "site_id": "cand-0032",
+   "population": 6,
+   "distance_km": 1.56,
+   "site_suitability": 61.8
+  },
+  {
+   "source_id": "osm-7890572950",
+   "source_name": "unnamed_7890572950",
+   "site_id": "cand-0032",
+   "population": 6,
+   "distance_km": 1.82,
+   "site_suitability": 61.8
+  },
+  {
+   "source_id": "osm-7954937174",
+   "source_name": "Thatwal Thati",
+   "site_id": "cand-0203",
+   "population": 5,
+   "distance_km": 2.65,
+   "site_suitability": 68.0
+  },
+  {
+   "source_id": "osm-10690493977",
+   "source_name": "Khola",
+   "site_id": "cand-0064",
+   "population": 5,
+   "distance_km": 2.75,
+   "site_suitability": 63.8
+  },
+  {
+   "source_id": "osm-2376974343",
+   "source_name": "Bagada",
+   "site_id": "cand-0075",
+   "population": 5,
+   "distance_km": 2.88,
+   "site_suitability": 69.3
+  },
+  {
+   "source_id": "osm-6591851723",
+   "source_name": "unnamed_6591851723",
+   "site_id": "cand-0155",
+   "population": 5,
+   "distance_km": 0.62,
+   "site_suitability": 60.9
+  },
+  {
+   "source_id": "osm-10690493953",
+   "source_name": "Ghura",
+   "site_id": "cand-0029",
+   "population": 4,
+   "distance_km": 2.96,
+   "site_suitability": 61.0
+  },
+  {
+   "source_id": "osm-6580821157",
+   "source_name": "Kembli",
+   "site_id": "cand-0075",
+   "population": 2,
+   "distance_km": 2.65,
+   "site_suitability": 69.3
+  },
+  {
+   "source_id": "osm-10574302479",
+   "source_name": "Lower Gathri",
+   "site_id": "cand-0046",
+   "population": 2,
+   "distance_km": 1.12,
+   "site_suitability": 69.6
+  }
+ ],
+ "total_relocated": 2480,
+ "unallocated_population": 0,
+ "unmet_by_source": [],
+ "site_utilization": [
+  {
+   "site_id": "cand-0209",
+   "allocated": 408,
+   "available_capacity": 408,
+   "utilisation_percent": 100.0
+  },
+  {
+   "site_id": "cand-0074",
+   "allocated": 368,
+   "available_capacity": 396,
+   "utilisation_percent": 92.9
+  },
+  {
+   "site_id": "cand-0029",
+   "allocated": 295,
+   "available_capacity": 498,
+   "utilisation_percent": 59.2
+  },
+  {
+   "site_id": "cand-0046",
+   "allocated": 276,
+   "available_capacity": 342,
+   "utilisation_percent": 80.7
+  },
+  {
+   "site_id": "cand-0109",
+   "allocated": 182,
+   "available_capacity": 5316,
+   "utilisation_percent": 3.4
+  },
+  {
+   "site_id": "cand-0185",
+   "allocated": 168,
+   "available_capacity": 238,
+   "utilisation_percent": 70.6
+  },
+  {
+   "site_id": "cand-0219",
+   "allocated": 127,
+   "available_capacity": 597,
+   "utilisation_percent": 21.3
+  },
+  {
+   "site_id": "cand-0167",
+   "allocated": 87,
+   "available_capacity": 1186,
+   "utilisation_percent": 7.3
+  },
+  {
+   "site_id": "cand-0325",
+   "allocated": 78,
+   "available_capacity": 427,
+   "utilisation_percent": 18.3
+  },
+  {
+   "site_id": "cand-0032",
+   "allocated": 77,
+   "available_capacity": 1079,
+   "utilisation_percent": 7.1
+  },
+  {
+   "site_id": "cand-0045",
+   "allocated": 74,
+   "available_capacity": 3882,
+   "utilisation_percent": 1.9
+  },
+  {
+   "site_id": "cand-0024",
+   "allocated": 66,
+   "available_capacity": 942,
+   "utilisation_percent": 7.0
+  },
+  {
+   "site_id": "cand-0064",
+   "allocated": 62,
+   "available_capacity": 574,
+   "utilisation_percent": 10.8
+  },
+  {
+   "site_id": "cand-0165",
+   "allocated": 48,
+   "available_capacity": 355,
+   "utilisation_percent": 13.5
+  },
+  {
+   "site_id": "cand-0075",
+   "allocated": 41,
+   "available_capacity": 490,
+   "utilisation_percent": 8.4
+  },
+  {
+   "site_id": "cand-0169",
+   "allocated": 33,
+   "available_capacity": 398,
+   "utilisation_percent": 8.3
+  },
+  {
+   "site_id": "cand-0030",
+   "allocated": 30,
+   "available_capacity": 380,
+   "utilisation_percent": 7.9
+  },
+  {
+   "site_id": "cand-0031",
+   "allocated": 23,
+   "available_capacity": 374,
+   "utilisation_percent": 6.1
+  },
+  {
+   "site_id": "cand-0203",
+   "allocated": 18,
+   "available_capacity": 2498,
+   "utilisation_percent": 0.7
+  },
+  {
+   "site_id": "cand-0103",
+   "allocated": 14,
+   "available_capacity": 396,
+   "utilisation_percent": 3.5
+  },
+  {
+   "site_id": "cand-0155",
+   "allocated": 5,
+   "available_capacity": 465,
+   "utilisation_percent": 1.1
+  }
+ ],
+ "constraint_summary": [
+  "demand satisfied for 67 of 67 habitations",
+  "capacity respected at all 21 used sites",
+  "safety screen: only sites with status FEASIBLE were eligible (309 of 405)",
+  "accessibility screen: destinations beyond 40 km excluded"
+ ],
+ "sources": 67,
+ "sinks": 309,
+ "config": {
+  "max_distance_km": 40.0,
+  "w_distance": 1.0,
+  "w_suitability": 1.0,
+  "unmet_penalty": 1000.0,
+  "allow_review_sites": false,
+  "solver": "CBC"
+ }
+}

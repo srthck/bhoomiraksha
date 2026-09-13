@@ -1,0 +1,10 @@
+{
+ "dem_valid_cells": 6338015,
+ "slope_nan_inside_dem": 8,
+ "settlement_cells": 562200,
+ "settlement_cells_without_elevation": 3380,
+ "settlement_cells_overhanging_district": 3380,
+ "settlement_cells_true_interior_void": 0,
+ "settlements_with_interior_void": 0,
+ "verdict": "DEM masking affects only buffer area outside the district; no in-district analysis is affected"
+}

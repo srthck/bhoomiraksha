@@ -1,0 +1,94 @@
+/* =========================================================================
+   Hazard signal
+   Motion is the severity channel. Critical moves, high moves a little,
+   monitor barely breathes, safe is still. If everything pulsed, red would
+   stop meaning anything.
+   ========================================================================= */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.hazard-signal {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 0; height: 0;
+  color: var(--critical);
+  pointer-events: none;
+}
+.sig-critical { color: var(--critical); }
+.sig-high { color: var(--high); }
+.sig-monitor { color: var(--monitor); }
+.sig-safe { color: var(--safe); }
+
+.hazard-signal > i {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+/* --- core ------------------------------------------------------------- */
+.sig-core {
+  width: 26px; height: 26px;
+  background: radial-gradient(circle at 38% 32%, color-mix(in srgb, currentColor 74%, white), currentColor 70%);
+  border: 1.5px solid rgba(255, 255, 255, 0.62);
+  box-shadow: 0 0 0 1px color-mix(in srgb, currentColor 55%, transparent), 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+.sig-core svg { width: 14px; height: 14px; color: #fff; }
+.sig-sm .sig-core { width: 18px; height: 18px; }
+.sig-sm .sig-core svg { width: 10px; height: 10px; }
+
+/* the core itself only breathes for critical, and only faintly */
+.sig-core { position: relative; }
+.sig-critical .sig-core::after {
+  position: absolute;
+  inset: -9px;
+  z-index: -1;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, currentColor 62%, transparent) 0%, color-mix(in srgb, currentColor 26%, transparent) 46%, transparent 72%);
+  content: '';
+  animation: sig-breathe 2.1s var(--ease) infinite;
+  will-change: transform, opacity;
+}
+@keyframes sig-breathe {
+  0%, 100% { opacity: 0.5; transform: scale(0.88); }
+  50%      { opacity: 1; transform: scale(1.3); }
+}
+
+/* --- rings ------------------------------------------------------------- */
+.sig-ring {
+  width: 26px; height: 26px;
+  border: 1.5px solid currentColor;
+  opacity: 0;
+  animation: sig-expand 2.1s var(--ease-out) infinite;
+  will-change: transform, opacity;
+}
+.sig-sm .sig-ring { width: 18px; height: 18px; }
+.sig-ring-2 { animation-delay: 0.7s; }
+.sig-high .sig-ring { animation-duration: 3.2s; opacity: 0; }
+
+@keyframes sig-expand {
+  0%   { opacity: 0.85; transform: scale(0.62); }
+  70%  { opacity: 0; transform: scale(2.8); }
+  100% { opacity: 0; transform: scale(2.8); }
+}
+
+/* monitor: a slow, almost imperceptible presence — no expanding ring at all */
+.sig-monitor .sig-core { animation: sig-dim 4.5s ease-in-out infinite; }
+@keyframes sig-dim { 0%, 100% { opacity: 0.72; } 50% { opacity: 1; } }
+
+/* safe is completely static by design */
+
+@media (prefers-reduced-motion: reduce) {
+  .sig-ring { display: none; }
+  .sig-core { animation: none !important; opacity: 1 !important; }
+  .sig-critical .sig-core::after { animation: none !important; opacity: 0.7; transform: scale(1.05); }
+  /* severity still reads through colour, ring count is replaced by a static halo */
+  .sig-critical .sig-core { box-shadow: 0 0 0 4px color-mix(in srgb, currentColor 26%, transparent), 0 0 0 8px color-mix(in srgb, currentColor 12%, transparent); }
+  .sig-high .sig-core { box-shadow: 0 0 0 3px color-mix(in srgb, currentColor 22%, transparent); }
+}

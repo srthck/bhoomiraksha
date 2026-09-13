@@ -1,0 +1,41 @@
+{
+ "weights": {
+  "slope": 0.45,
+  "rainfall": 0.3,
+  "relief": 0.25
+ },
+ "classes": {
+  "Very Low": {
+   "class": 1,
+   "cells": 1255030,
+   "area_km2": 1129.5,
+   "pct": 19.8
+  },
+  "Low": {
+   "class": 2,
+   "cells": 2856740,
+   "area_km2": 2571.1,
+   "pct": 45.1
+  },
+  "Moderate": {
+   "class": 3,
+   "cells": 1181241,
+   "area_km2": 1063.1,
+   "pct": 18.6
+  },
+  "High": {
+   "class": 4,
+   "cells": 964085,
+   "area_km2": 867.7,
+   "pct": 15.2
+  },
+  "Very High": {
+   "class": 5,
+   "cells": 80911,
+   "area_km2": 72.8,
+   "pct": 1.3
+  }
+ },
+ "validated": false,
+ "note": "uncalibrated weighted overlay; no landslide inventory available"
+}

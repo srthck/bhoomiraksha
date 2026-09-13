@@ -1,0 +1,20 @@
+{
+ "thresholds": {
+  "max_susceptibility": 40.0,
+  "max_slope_deg": 15.0,
+  "max_elevation_m": 2200.0,
+  "min_area_km2": 0.05,
+  "water_buffer_m": 30.0
+ },
+ "weights": {
+  "safety": 0.4,
+  "terrain": 0.25,
+  "road_access": 0.2,
+  "healthcare_access": 0.15
+ },
+ "counts": {
+  "FEASIBLE": 342,
+  "REVIEW": 63
+ },
+ "environmental_constraint": "watercourse buffer only; no forest, protected-area or land-ownership data was available"
+}

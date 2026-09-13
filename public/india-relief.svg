@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 820" role="img" aria-label="Illustrative terrain and hazard map of India">
+  <defs>
+    <linearGradient id="land" x1=".12" y1=".02" x2=".84" y2="1"><stop stop-color="#dfc27a"/><stop offset=".24" stop-color="#df9b4c"/><stop offset=".47" stop-color="#4d9a65"/><stop offset=".72" stop-color="#3ba8ba"/><stop offset="1" stop-color="#23647f"/></linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8db" stop-opacity=".92"/><stop offset="1" stop-color="#a5d6c8" stop-opacity=".08"/></linearGradient>
+    <radialGradient id="northHeat"><stop stop-color="#d84f35" stop-opacity=".95"/><stop offset="1" stop-color="#e98946" stop-opacity="0"/></radialGradient>
+    <radialGradient id="westHeat"><stop stop-color="#f0a348" stop-opacity=".85"/><stop offset="1" stop-color="#f0a348" stop-opacity="0"/></radialGradient>
+    <radialGradient id="eastFlood"><stop stop-color="#53c9da" stop-opacity=".84"/><stop offset="1" stop-color="#53c9da" stop-opacity="0"/></radialGradient>
+    <radialGradient id="coastStorm"><stop stop-color="#75dbe5" stop-opacity=".78"/><stop offset="1" stop-color="#75dbe5" stop-opacity="0"/></radialGradient>
+    <pattern id="contours" width="86" height="54" patternUnits="userSpaceOnUse" patternTransform="rotate(-9)"><path d="M-20 30 C12 4 48 5 105 34 M-30 48 C12 21 51 24 116 51" fill="none" stroke="#f5f0cb" stroke-opacity=".25" stroke-width="1.5"/></pattern>
+    <pattern id="micro" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 18 18 0" stroke="#f4eed0" stroke-opacity=".08" stroke-width="1"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#06151b" flood-opacity=".75"/></filter>
+    <clipPath id="india"><path d="M266 32 327 14 371 38 394 82 450 106 469 151 522 177 557 225 615 275 605 321 641 361 611 397 575 404 560 462 528 506 509 558 477 628 446 700 414 781 381 814 349 777 328 728 291 672 263 624 231 568 208 511 184 470 161 425 135 391 106 358 77 326 93 288 132 269 164 226 186 178 185 122 218 81 220 50Z"/></clipPath>
+  </defs>
+  <g filter="url(#shadow)"><g clip-path="url(#india)">
+    <rect width="760" height="820" fill="url(#land)"/>
+    <ellipse cx="280" cy="180" rx="220" ry="136" fill="url(#northHeat)"/>
+    <ellipse cx="188" cy="380" rx="195" ry="184" fill="url(#westHeat)"/>
+    <ellipse cx="520" cy="249" rx="165" ry="175" fill="url(#eastFlood)"/>
+    <ellipse cx="510" cy="605" rx="180" ry="185" fill="url(#coastStorm)"/>
+    <path d="M151 267 258 252 338 307 432 248 540 284 612 355 552 414 460 387 407 466 294 424 207 475 121 380Z" fill="url(#contours)" opacity=".95"/>
+    <rect width="760" height="820" fill="url(#micro)"/>
+    <path d="M214 87 269 40 330 28 393 82 449 106 493 165 536 184 570 225" fill="none" stroke="url(#snow)" stroke-width="19" stroke-linecap="round" opacity=".9"/>
+    <path d="M243 102 286 181 335 221 300 294 382 336 349 406 413 447 370 536 438 604 397 716" fill="none" stroke="#eef4d7" stroke-opacity=".52" stroke-width="2"/>
+    <path d="M332 44 349 126 410 167 398 247 477 272 505 343 572 363 553 439 500 489 463 583 421 691" fill="none" stroke="#e9f2d5" stroke-opacity=".42" stroke-width="2"/>
+    <path d="M159 226 245 268 225 349 287 419 220 485 180 428 119 376" fill="none" stroke="#e9f2d5" stroke-opacity=".34" stroke-width="2"/>
+    <path d="M241 33 322 15 372 38 394 82 449 106 469 151 522 177 557 225 615 275 605 321 641 361 611 397 575 404 560 462 528 506 509 558 477 628 446 700 414 781 381 814 349 777 328 728 291 672 263 624 231 568 208 511 184 470 161 425 135 391 106 358 77 326 93 288 132 269 164 226 186 178 185 122 218 81 220 50Z" fill="none" stroke="#fdf8d9" stroke-width="5" stroke-opacity=".88"/>
+  </g></g>
+  <g fill="none" stroke="#f9f4d6" stroke-opacity=".24" stroke-width="2"><path d="M230 205 340 183 430 224 493 300 459 357 365 334 281 371 207 303Z"/><path d="M164 318 254 348 321 411 282 475 203 440 126 374Z"/><path d="M331 386 420 371 502 437 466 522 385 504Z"/><path d="M348 550 421 524 466 604 421 688 369 626Z"/></g>
+  <g filter="url(#glow)" opacity=".7"><circle cx="260" cy="155" r="24" fill="#ed7345"/><circle cx="528" cy="250" r="28" fill="#57d4e0"/><circle cx="210" cy="407" r="20" fill="#f2ae51"/><circle cx="492" cy="610" r="25" fill="#74dbe2"/></g>
+  <g fill="#f8f3d5" stroke="#132a2b" stroke-width="4"><circle cx="263" cy="155" r="9"/><circle cx="528" cy="250" r="9"/><circle cx="210" cy="407" r="9"/><circle cx="492" cy="610" r="9"/></g>
+</svg>

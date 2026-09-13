@@ -1,0 +1,8 @@
+{
+ "crs": "EPSG:32643",
+ "resolution_m": 30.0,
+ "width": 4651,
+ "height": 2925,
+ "valid_px": 6338015,
+ "area_km2": 5704.2135
+}

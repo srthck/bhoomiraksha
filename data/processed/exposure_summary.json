@@ -1,0 +1,17 @@
+{
+ "district": {
+  "population": 1652806,
+  "exposed_population": 22457,
+  "exposed_share_percent": 1.36,
+  "note": "all GHSL population in the district, regardless of settlement footprint"
+ },
+ "settlements": {
+  "count": 1183,
+  "population": 577254,
+  "exposed_population": 12780,
+  "exposed_share_percent": 2.21,
+  "note": "population inside allocated settlement zones only; a subset of the district"
+ },
+ "allocation_method": "nearest place-node centre among containing footprints (Voronoi, clipped)",
+ "hazard_break": 60.0
+}

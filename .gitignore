@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Analytical data — reproducible from scripts/geospatial/, too large for git
+data/raw/
+scripts/.cache/
+data/processed/*.tif
+# Dependencies / build output
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Large generated candidate data
+data/processed/candidate_zones.npy
+
+# Large raw geospatial datasets
+data/raw/ghsl/*.tif
+data/raw/ghsl/*.zip
+data/raw/wc2.1_2.5m_prec.zip
+brain.md
